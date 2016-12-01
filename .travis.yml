@@ -7,9 +7,9 @@ install:
  - pip install simplejson
 
 script:
- - python -m unittest ShippingLogic.py -v
- - python -m unittest basket.py -v
- - python -m unittest SaleItem.py -v
- - python -m unittest itemstore.py -v
+# - python -m unittest ShippingLogic.py -v
+# - python -m unittest basket.py -v
+# - python -m unittest SaleItem.py -v
+# - python -m unittest itemstore.py -v
  - python -m unittest test_SaleItemUnitTest.py -v
- - python -m unittest main.py -v
+# - python -m unittest main.py -v
