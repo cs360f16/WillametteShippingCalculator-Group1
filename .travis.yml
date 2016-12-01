@@ -1,0 +1,15 @@
+language: python
+python:
+ - "3.3"
+ - "3.4"
+
+install:
+ - pip install simplejson
+
+script:
+ - python -m doctest -v ShippingLogic.py
+ - python -m doctest -v basket.py
+ - python -m doctest -v SaleItem.py
+ - python -m doctest -v itemstore.py
+ - python -m unittest test_SaleItemUnitTest.py -v
+ - python -m doctest -v main.py
