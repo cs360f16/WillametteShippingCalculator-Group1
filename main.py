@@ -14,6 +14,7 @@ from basket import Basket
 from ShippingLogic import *
 import sys
 import getopt
+import unittest
 
 # python3 main.py --file dataFiles/normalSales.csv [--shipping (normal|sale)]
 

@@ -9,6 +9,8 @@
 # Purpose:		An individual item for sale
 ################################
 
+import unittest
+
 class SaleItem:
 	
 	# this is a list because we need a mutable object to be shared

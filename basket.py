@@ -9,6 +9,8 @@
 # Purpose:		Provide a shopping basket for an online store
 ################################
 
+import unittest
+
 class Basket:
 	""" The customer's shopping basket
 	"""
