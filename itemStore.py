@@ -9,6 +9,7 @@
 # Purpose:		Demonstrate the inventory system on an online store
 ################################
 
+import unittest
 import csv
 from SaleItem import SaleItem
 

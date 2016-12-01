@@ -9,6 +9,8 @@
 # Purpose:		The shipping calculator
 ################################
 
+import unittest
+
 class ShippingLogic:
 	""" Standard shipping costs
 	
